@@ -1,6 +1,12 @@
 # Installation
 
-- php artisan shop:install
+- run install.sh
+
+if you need test data run:
+
+`docker compose exec app bash -c "php artisan db:seed"`
+
+shop will be available at http://localhost:8877
 
 #debug bar
 
